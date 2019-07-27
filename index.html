@@ -1,0 +1,140 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+       <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!-- <meta http-equiv="refresh" content="2"> -->
+    </head>
+
+    <body style="background-color: #eee; font-family: roboto;">
+      <div class="red header">
+          <i style="color: #fff; font-size: 50px;" class="material-icons right">menu</i>
+        <ul class="shift" style="display: flex;">
+           <li><a class="btn-floating yellow darken-1"><i class="material-icons">person</i></a></li>
+           <li><a class="btn-floating green"><i class="material-icons">notifications_active</i></a></li>
+           <li><a class="btn-floating orange"><i class="material-icons">message</i></a></li>
+           <li><a class="btn-floating teal"><i class="material-icons">wifi</i></a></li>
+        </ul>
+      </div>
+      <div class="progress">
+        <div class="indeterminate"></div>
+    </div>
+       <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">add</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  <p class="intro"><span style="font-weight: 600">My Material Design Incubator-</span> i'll be taking courses on material designs and ill be ussing this space for incubation. So if you'd like to follow up on my progress, come here often to see. :)</p>
+  <h2 class="">Message alerts</h2>
+       <div class="tab">
+          <p class="red-b">
+             <i class="material-icons right">warning</i>
+            <span>An error occured, please try again later</span></p>
+           <button class="btn red waves-effect waves-dark" type="submit" name="action">
+             <i class="material-icons right">home</i>Return to Home
+           </button>
+       </div>
+       <div class="tab">
+          <p class="orange-b">
+             <i class="material-icons right">info</i>
+            <span>You cannot perform that operation</span></p>
+           <button class="btn orange waves-effect waves-dark" type="submit" name="action">
+             <i class="material-icons right">refresh</i>Try again
+           </button>
+       </div>
+       <div class="tab">
+          <p class="green-b">
+             <i class="material-icons right">check</i>
+            <span>Your request was submitted successfully!</span></p>
+           <button class="btn green waves-effect waves-dark" type="submit" name="action">
+             <i class="material-icons right">arrow_right</i>Continue
+           </button>
+       </div>
+
+       <style type="text/css">
+         .tab{
+              max-width: 400px;
+              margin: 0px auto;
+              margin-top: 10px;
+              border-radius: 5px;
+              padding: 20px;
+            }
+            .tab p{
+              background: #fff;
+               display: flex;
+               align-content: center;
+              border-left: 5px solid transparent;
+              padding: 10px;
+              box-shadow: 0px 5px 30px rgba(0,0,0,0.05);
+              border-radius: 3px;
+            }
+            .tab p i{
+                     align-self: center;
+                     padding-right: 10px;
+                     color: #222;
+              }
+              .intro{
+                     padding: 10px;
+                     background: rgba(0,200, 0, 0.1);
+                     border: 1.2px dotted  rgba(0,200, 0, 0.5);
+                     margin: 20px 10px 10px 10px;
+                   }
+              .green-b{
+                 border-color: green !important
+               }
+               .red-b{
+                 border-color: red !important
+               }
+               .orange-b{
+                 border-color: orange !important
+               }
+               h2{
+                text-align: center;
+                text-shadow: 0px 10px 20px rgba(0,0,0,.5);
+                color: #000;
+                font-size: 25px;
+               }
+               .header{
+                        box-sizing: border-box;
+                         position: sticky !important;
+                                  top: 0px !important;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100% !important;
+                        padding: 15px 10px;
+                        margin: 0px;
+                         box-shadow: 0px 10px 60px rgba(0,0,0,.2);
+                         z-index: 99999999999999999999
+                         /*margin-bottom: 50px;*/
+                       }
+                       .progress{
+                                  position: sticky !important;
+                                  top: 0px !important;
+                                 margin: 0px;
+                               }
+                       .shift li{
+
+                        margin-right: 10px;
+                       }
+                       @media(max-width:500px){.header i{transform: scale(.8);}}
+       </style>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </body>
+  </html>
